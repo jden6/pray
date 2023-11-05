@@ -5,7 +5,7 @@ import { AiOutlineHeart } from 'react-icons/ai'
 import { BsBookmark } from 'react-icons/bs'
 
 const BasicCard = () => {
-  return <div className={classNames('max-h-[400px]', 'rounded-t-lg', 'bg-white', 'shadow-white', 'm-3')}>
+  return <div className={classNames('max-h-[400px]', 'rounded-t-lg', 'bg-white', 'drop-shadow-md')}>
     <div
       className={classNames('px-10', 'pt-5')}>
       <div>
@@ -22,7 +22,7 @@ const BasicCard = () => {
 
 const BasicCardTitle = () => {
   return <div
-    className={classNames('mt-2', 'mb-1', 'text-2xl', 'max-w-[350px]', 'overflow-hidden', 'max-h-8', 'text-ellipsis', 'whitespace-nowrap')}>기도제목
+    className={classNames('mt-2', 'mb-1', 'text-2xl', 'max-w-[230px]', 'overflow-hidden', 'max-h-8', 'text-ellipsis', 'whitespace-nowrap')}>기도제목
     글자수
     확인하기 위한 길이 테스트기도제목 글자수 확인하기 위한 길이 테스트기도제목 글자수 확인하기 위한 길이 테스트기도제목 글자수 확인하기 위한 길이 테스트기도제목 글자수 확인하기 위한 길이 테스트
   </div>
